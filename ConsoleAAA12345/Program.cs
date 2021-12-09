@@ -25,6 +25,9 @@ namespace ConsoleAAA12345
                 kk += Convert.ToInt32(array[a]);
             Console.WriteLine($"Сумма: { kk }");
 
+            Class2 class2 = new();
+            class2.Display();
+
             Console.WriteLine();
             Console.ReadKey();
         }
